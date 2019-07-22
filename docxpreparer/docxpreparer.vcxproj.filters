@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Файлы заголовков\filters">
+      <UniqueIdentifier>{d2123777-0755-4014-869d-00690cf6cab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\filter">
+      <UniqueIdentifier>{67a6b2fb-8cbe-4598-84b9-34674ede4f0a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="docxpreparer.cpp">
@@ -22,6 +28,24 @@
   <ItemGroup>
     <ClInclude Include="docxpreparer.h">
       <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="filters\tag_find_parser.h">
+      <Filter>Файлы заголовков\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="filters\position_parser.h">
+      <Filter>Файлы заголовков\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="filters\base_parser.h">
+      <Filter>Файлы заголовков\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="filters\istream_filter.h">
+      <Filter>Файлы заголовков\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filters\filter_buff.h">
+      <Filter>Файлы заголовков\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filters\words_finder.h">
+      <Filter>Файлы заголовков\filters</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
